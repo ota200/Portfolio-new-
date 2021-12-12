@@ -121,7 +121,33 @@ span{
   margin-top:63vh;
 }
 
+.table {
+  position: relative;
+  text-align: center;
+  margin:auto;
 
+}
+
+/*Table stuff for Keeping tghings sharp*/
+.table table{
+  border-style: solid;
+  border-collapse: separate;
+  border-radius: 1rem;
+  text-align: center;
+  margin:auto;
+  border-spacing: 2rem 0;
+  background-color: #ffe066ce;
+  width:90%;
+
+}
+
+.table th{
+  font-size: clamp(2.5rem,4vw,5rem);
+}
+
+th:nth-child(2),td:nth-child(2){
+  background-color: #FBEBEE;
+}
 
 
 /*
