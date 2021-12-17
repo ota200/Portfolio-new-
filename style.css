@@ -145,8 +145,16 @@ span{
   font-size: clamp(2.5rem,4vw,5rem);
 }
 
+.table td{
+  font-size: clamp(1rem,2vw,2rem);
+}
+
 th:nth-child(2),td:nth-child(2){
   background-color: #FBEBEE;
+}
+
+img{
+  width:20vw;
 }
 
 
