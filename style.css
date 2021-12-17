@@ -121,6 +121,8 @@ span{
   margin-top:63vh;
 }
 
+
+
 .table {
   position: relative;
   text-align: center;
@@ -133,6 +135,7 @@ span{
   border-style: solid;
   border-collapse: separate;
   border-radius: 1rem;
+  border-color:black;
   text-align: center;
   margin:auto;
   border-spacing: 2rem 0;
@@ -149,6 +152,23 @@ th:nth-child(2),td:nth-child(2){
   background-color: #FBEBEE;
 }
 
+
+img{
+  width:25vw;
+}
+
+.essay{
+  display: flex;
+  justify-content: center;
+
+  width:100%;
+}
+
+.essay a{
+  background-color: rebeccapurple;
+  width:50%;
+  height:;
+}
 
 /*
 header{
