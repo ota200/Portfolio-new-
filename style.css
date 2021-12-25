@@ -156,9 +156,6 @@ th:nth-child(2),td:nth-child(2){
   background-color: #FBEBEE;
 }
 
-img{
-  width:20vw;
-}
 
 
 img{
@@ -175,7 +172,44 @@ img{
 .essay a{
   background-color: rebeccapurple;
   width:50%;
-  height:;
+  height:20rem;
+}
+
+.essays{
+  border-style: solid;
+  margin: auto;
+  border-radius: 1rem;
+  border-collapse: separate;
+  text-align: center;
+  border-spacing: 0 2rem;
+  border-color: #E3170A;
+
+}
+
+
+.essays h2{
+  text-align: left;
+}
+
+.essays td {
+  border-bottom: solid;
+  border-color: #E3170A;
+
+}
+
+.essays .b{
+  border-bottom: none;
+}
+
+.essay .d{
+  position: relative;
+  display:grid;
+}
+.essays div{
+  position: absolute;
+  background-color: #E3170A;
+  color: #000022;
+  width:20rem;
 }
 
 /*
