@@ -162,54 +162,26 @@ img{
   width:25vw;
 }
 
-.essay{
-  display: flex;
-  justify-content: center;
-
-  width:100%;
-}
-
-.essay a{
-  background-color: rebeccapurple;
-  width:50%;
-  height:20rem;
-}
-
-.essays{
+.holder{
   border-style: solid;
-  margin: auto;
-  border-radius: 1rem;
-  border-collapse: separate;
-  text-align: center;
-  border-spacing: 0 2rem;
-  border-color: #E3170A;
+  border-radius: 2.5vw;
+  width:90vw;
+  margin:auto;
 
 }
 
-
-.essays h2{
-  text-align: left;
-}
-
-.essays td {
-  border-bottom: solid;
-  border-color: #E3170A;
+.holder h2{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left:3vw;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 2rem;
 
 }
 
-.essays .b{
-  border-bottom: none;
-}
-
-.essay .d{
-  position: relative;
-  display:grid;
-}
-.essays div{
-  position: absolute;
-  background-color: #E3170A;
-  color: #000022;
-  width:20rem;
+.line{
+  border-bottom-style:solid;
+  border-bottom-width: 100%;
 }
 
 /*
