@@ -167,6 +167,7 @@ img{
   border-radius: 2.5vw;
   width:90vw;
   margin:auto;
+  border-color: #E3170A;
 
 }
 
@@ -176,14 +177,53 @@ img{
   padding-left:3vw;
   font-family: 'Encode Sans', sans-serif;
   font-size: 2rem;
-
+  border-color: #E3170A;
+  
 }
 
 .line{
   border-bottom-style:solid;
   border-bottom-width: 100%;
+  border-color: #E3170A;
+
 }
 
+.d{
+  display: flex;
+}
+.d div{
+  background-color: #E3170A;
+  width: 15vw;
+  height: 15vw;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius: min(1rem,8rem);
+  
+}
+
+.d div h1 {
+  font-size: min(2rem,1.5vw);
+  text-align: center;
+  margin-top: 6vw;
+  color: #000022;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+}
+
+
+.b{
+  margin-left:3vw;
+  padding-top:2vh;
+  padding-bottom:5vh;
+}
+
+.b ul{
+  list-style-type: none; 
+
+}
 /*
 header{
   margin-top: 20vh;
