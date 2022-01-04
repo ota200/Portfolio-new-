@@ -224,6 +224,14 @@ img{
   list-style-type: none; 
 
 }
+
+.o{
+  margin:auto;
+  width:94%;
+  font-size: min(1rem,2vw);
+  padding-top:2vh;
+  padding-bottom:4vh;
+}
 /*
 header{
   margin-top: 20vh;
