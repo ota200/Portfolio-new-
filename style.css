@@ -237,6 +237,24 @@ img{
   font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
 }
+
+
+.next{
+  border: #000022 solid;
+  border-width: 0.3rem;
+  border-radius: 1rem;
+  background-color: #ffe066ce;
+  position: fixed;
+  z-index: 100;
+  padding: 1rem 1rem;
+  top: 85%;
+  left: 5%;
+}
+
+.next img{
+  width: 3rem;
+}
+
 /*
 header{
   margin-top: 20vh;
