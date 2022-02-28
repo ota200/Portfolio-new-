@@ -79,7 +79,7 @@ span{
 
 }
 
-.title,#title header{
+.title header{
   font-size: 6.5vw;
   color: #FBEBEE;
   position: absolute;
@@ -262,7 +262,7 @@ img{
 }
 
 .hover:hover {
-  font-size: 1.01rem;
+  font-size: 1.05rem;
 
 }
 
