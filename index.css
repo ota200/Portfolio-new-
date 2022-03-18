@@ -60,12 +60,59 @@
 
 }
 
+
 .two{
   background-color: #FBEBEE;
   font-family: 'Abril Fatface', cursive;
-
-    
+  border-style: solid;
+  border-color: #E3170A;
+  border-width: 0.5rem;
+  
 }
+
+.two h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size:3rem;
+    margin-top: 15vh;
+    margin-bottom: 75vh;
+}
+
+.two button{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 5.5vw;
+    color: #FBEBEE;
+    text-align: center;
+    width: 100%;
+  
+    /*-webkit-text-stroke: 2px black; width and color */
+    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+    text-shadow: 1px 1px 0 #000,
+      -1px 1px 0 #000,
+      1px -1px 0 #000,
+      -1px -1px 0 #000,
+      0px 1px 0 #000,
+      0px -1px 0 #000,
+      -1px 0px 0 #000,
+      1px 0px 0 #000,
+      2px 2px 0 #000,
+      -2px 2px 0 #000,
+      2px -2px 0 #000,
+      -2px -2px 0 #000,
+      0px 2px 0 #000,
+      0px -2px 0 #000,
+      -2px 0px 0 #000,
+      2px 0px 0 #000,
+      1px 2px 0 #000,
+      -1px 2px 0 #000,
+      1px -2px 0 #000,
+      -1px -2px 0 #000,
+      2px 1px 0 #000,
+      -2px 1px 0 #000,
+      2px -1px 0 #000,
+      -2px -1px 0 #000;
+
+}
+
 
 .three{
     font-family: 'Archivo', sans-serif;
