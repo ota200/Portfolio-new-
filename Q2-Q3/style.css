@@ -190,6 +190,7 @@ img{
 
 .d{
   display: flex;
+  text-align: justify;
 }
 .d div{
   background-color: #E3170A;
@@ -217,12 +218,16 @@ img{
 .b{
   margin-left:3vw;
   padding-top:2vh;
-  padding-bottom:5vh;
+  padding-bottom:4vh;
 }
 
 .b ul{
   list-style-type: none; 
 
+}
+
+.b li{
+  padding-bottom: 1rem;
 }
 
 .o{
