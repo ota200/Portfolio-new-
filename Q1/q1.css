@@ -268,10 +268,8 @@ span{
 }
 
 .note1{
-  width: 13rem;
-  height: auto;
-  margin-top: 25%;
-  margin-left: 20%;
+  top: 40000px;
+  left: 20%;
   transform: translate(-50%,-50%) rotate(-20deg);
   position: absolute;
 
