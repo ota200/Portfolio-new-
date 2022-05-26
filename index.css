@@ -119,7 +119,7 @@
 }
 
 .three h2{
-    position: fixed;
+    position: relative;
     font-size: 18rem;
 
 }
