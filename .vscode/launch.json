@@ -1,4 +1,4 @@
-{
+/*{
     "version": "0.2.0",
     "configurations": [
         {
@@ -8,5 +8,20 @@
             "reAttach": true,
             "file": "${workspaceFolder}/index.html"
         }
+    ]
+}*/
+
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+
     ]
 }
