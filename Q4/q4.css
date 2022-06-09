@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,500&display=swap');
+*{
+    background-color: #FFFCF5;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color:black;
+}
+
+/*Top navigation bar*/
+.topnav{
+    position: relative;
+    padding-bottom: 5vh;
+    padding-top: 7vh;
+    font-size: 1.4vw;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .left{
+    justify-content: right;
+
+  }
+
+  .left img{
+    width: 4vw;
+  }
+  
+  .right{
+    position: relative;
+    font-family: 'Roboto Serif', serif;    
+    text-align: right;
+    margin-left: 42vw;
+  }
+  
+  .right a{
+    padding-left:2.5vw; 
+  }
+
+  h1{
+    font-family: 'Tinos', serif;
+    font-size:8vw;
+    margin: 0;
+
+  }
+
+  .port  {
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+
+  }
