@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+
 *{
-    background-color: #FFFCF5;
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    color:black;
+  background-color: #FFFCF5;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color:black;
+
 }
 
 /*Top navigation bar*/
-.topnav{
+  .topnav{
     position: relative;
     padding-bottom: 5vh;
     padding-top: 7vh;
@@ -19,25 +24,25 @@
 
   }
   
-  .left{
-    justify-content: right;
-
-  }
-
-  .left img{
-    width: 4vw;
-  }
+    .left{
+      justify-content: right;
   
-  .right{
-    position: relative;
-    font-family: 'Roboto Serif', serif;    
-    text-align: right;
-    margin-left: 42vw;
-  }
+    }
   
-  .right a{
-    padding-left:2.5vw; 
-  }
+      .left img{
+        width: 4vw;
+      }
+    
+    .right{
+      position: relative;
+      font-family: 'Roboto Serif', serif;    
+      text-align: right;
+      margin-left: 42vw;
+    }
+    
+      .right a{
+        padding-left:2.5vw; 
+      }
 
   h1{
     font-family: 'Tinos', serif;
@@ -56,3 +61,38 @@
     justify-content: center
 
   }
+
+  .essays {
+    font-size: 2vw;
+    margin-top:32vh;
+    display: grid;
+    /*border:solid;*/
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    font-family: 'Joan', serif;
+    padding-bottom:50rem;
+  }
+
+  .essays a{
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 1.9vw;
+  }
+
+  .para{
+    width:70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding:2rem;
+  }
+
+    p{
+      font-family: 'Roboto Flex', sans-serif;
+      text-align: center;
+      font-size:2rem;
+      
+  
+    }
+
