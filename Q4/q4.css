@@ -9,7 +9,12 @@
   padding: 0;
   margin: 0;
   text-decoration: none;
-  color:black;
+  color:black;  
+
+}
+
+html{
+  scroll-behavior: smooth;
 
 }
 
@@ -64,7 +69,7 @@
 
   .essays {
     font-size: 2vw;
-    margin-top:32vh;
+    margin-top:40vh;
     display: grid;
     /*border:solid;*/
     text-align: center;
@@ -76,6 +81,8 @@
   .essays a{
     font-family: 'Roboto Flex', sans-serif;
     font-size: 1.9vw;
+    
+    
   }
 
   .para{
