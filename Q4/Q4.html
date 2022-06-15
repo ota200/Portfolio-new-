@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="  height: 100%; overflow: hidden; ">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,7 +26,13 @@
         <div class="port">
           <h1>ogooluwa's portfolio</h1>
         </div>
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
         <div class="essays" id="e">
           <div style="background:#EAF0CE;">
             <h2 style="background:#EAF0CE;"> Formal </h2>
@@ -50,6 +56,7 @@
             
           </div>          
         </div>
+        <button id="up"> up </button>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
@@ -76,6 +83,23 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+mybutton = document.getElementById("up");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+} 
 </script>
     </body>
 </html>
