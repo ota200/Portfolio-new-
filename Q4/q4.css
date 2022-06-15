@@ -75,6 +75,7 @@ html{
     text-align: center;
     grid-template-columns: repeat(3, 1fr);
     font-family: 'Joan', serif;
+    padding-bottom: 50rem;
   }
 
   .essays a{
@@ -102,3 +103,16 @@ html{
   
     }
 
+#up {
+  position: fixed;
+
+  left:85%;
+  top:85%;
+  border-style: none;
+  border-radius: 25rem;
+  background-color: rgb(245, 141, 50);
+
+  width:5rem;
+  height:5rem;
+
+}

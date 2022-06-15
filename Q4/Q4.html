@@ -33,14 +33,15 @@
 <br>
 <br>
 <br>
-
         <div class="essays" id="e">
-
           <div style="background:#EAF0CE;">
             <h2 style="background:#EAF0CE;"> Formal </h2>
               <br><br>
             
             <a style="background:#EAF0CE;" href="https://docs.google.com/document/d/1QoRUAVNXzehxdDGmqe9Mdc8urV6TWDuKKJrMKDSOCIk/edit"> Extra Essay 3</a>
+
+            <a href="https://docs.google.com/document/d/1M-vYv2aHJC2Elk-hyc7pg-V3-IkCKWzM-TC3IliUEVo/edit">Rant Part 2 - ( Jobs stuff )</a>
+
           </div>
           
           <div>
@@ -56,11 +57,10 @@
             <h2 style="background:#EAF0CE;"> Notes </h2>
               <br><br>
             
-          </div>   
+          </div>
           <button id="up"  onclick="topFunction()"> up </button>
-
+          
         </div>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
@@ -89,6 +89,7 @@ $(document).ready(function(){
 });
 
 mybutton = document.getElementById("up");
+mybutton.style.display = "none";
 
 window.onscroll = function() {scrollFunction()};
 
@@ -104,6 +105,8 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 } 
+
+
 </script>
     </body>
 </html>
