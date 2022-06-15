@@ -75,7 +75,6 @@ html{
     text-align: center;
     grid-template-columns: repeat(3, 1fr);
     font-family: 'Joan', serif;
-    padding-bottom:50rem;
   }
 
   .essays a{
